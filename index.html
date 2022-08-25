@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Enigma Camp</title>
+  </head>
+  <body onload="loadAnime()">
+    <div class="wrapper">
+      <header class="bg-white text-primary" id="sticky">
+        <div class="navbar-logo">PascalApp</div>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#"><i class="fa fa-home"></i> Beranda</a>
+            </li>
+            <li><a href="#about"><i class="fa-solid fa-hand-holding-heart"></i>Tentang Kami</a></li>
+            <li><a href="#contact"><i class="fa fa-phone"></i>Hubungi Kami</a></li>
+            <li><a href="prtfolio.html"><i class="fa-solid fa-cat"></i>Portfolio</a></li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    
+      <section>
+        <div class="content">
+          <h1 class="center text-white">Selamat Datang</h1>
+          <p>Di Website Pascal Class</p>
+        </div>
+      </section>
+
+      <div class="container">
+        <h1 class="text-center text-primary   h1-qs">Whats We Learn?</h1>
+        <div class="row" id="data-anime"></div>
+      </div>
+
+      <section id="about" class="section-value-1">
+          <div class="value-1-image">
+              <img src="assets/img/value1.png" alt="value-image"/>
+          </div>
+          <div class="content-value-1">
+              <div class="value-1-text">
+                  <h1 class="h1-500">Talent as a service</h1>
+                  <p class="p-normal mt-20">Program Talent as a Service di Enigma camp menggunakan pendekatan Model Ready-to-Work  yang dirancang secara khusus untuk memenuhi kebutuhan bakat-bakat teknologi yang masih kurang. Kami mempersiapkan sumberdaya manusia dengan ketrampilan yang handal untuk menduduki posisi junior developer, junior quality engineer, yang bekerja pada perusahaan atau sebagai karyawan outsourcing
+
+                    Program training intensif kami akan diberikan secara penuh, 6 hari seminggu, dengan durasi 12 minggu. Dengan berfokus pada kesiapan kerja, proses penerimaan akan dilakukan secara ketat, dan selama masa training, para peserta akan menetap di asrama ENIGMA CAMP secara gratis dan dilengkapi dengan perangkat training, notebook, koneksi internet, makan 3 kali sehari dan tidak dikenakan biaya apapun.</p>
+              </div>
+              <a href="mailto:info@enigma.com" class="value-1-button mt-20" >Send Email</a>
+          </div>
+      </section>
+
+      <section class="section-value-2">
+
+          <div class="content-value-2">
+              <div class="value-2-text">
+                  <h1 class="h1-500">Training as a service</h1>
+                  <p class="p-normal mt-20">Program Training as a Services dirancang secara khusus untuk memenuhi kebutuhan perusahaan. Kami menyediakan kurikulum yang fleksibel dari daftar kurikulum kami yang telah dipersiapkan. Program training intensif ini akan diberikan dalam waktu penuh, 5 hari dalam seminggu. Dengan 3 pilihan durasi training, yaitu 4, 8, atau 12 minggu. Biaya training akan dibayarkan oleh perusahaan berdasarkan jumlah waktu training dan pemilihan kurikulum dan para lulusan direkomendasikan untuk menjadi karyawan purnawaktu di perusahaan klien</p>
+              </div>
+              <a href='enigmacamp.com' class="value-2-button pointer mt-20" >Daftar Sekarang</a>
+          </div>
+          <div class="value-2-image">
+              <img src="assets/img/value2.png" alt="value-image"/>
+          </div>
+      </section>
+
+
+    
+
+      
+        <section id='contact' class='contact'>          
+        <div class="contact__send__mail">
+          <h1>CONTACT US</h1>
+  
+          <form class='form__input' action="">
+            <div class="form__grup">
+              <input class='contact__input' type="text" placeholder='Name'/>
+            </div>
+            <div class="form__grup">
+                    <PhoneInput
+                     international
+                     defaultCountry="ID"
+                      placeholder="+62 834-6888-722"
+                      value={value}
+                      onChange={setValue}/>
+            
+            </div>
+            <div class="form__grup">
+              <input class='contact__input' type="email" placeholder='Email'/>
+            </div>
+            <div class="form__grup">
+              <label class='pointer ' for="message" >Message</label>
+              <textarea name='message' id='message' placeholder='Type here...'></textarea>
+            </div>
+          </form>
+        </div>
+        </section>
+      
+    <footer class="bg-primary">
+      <p class="text-white">
+        <a 
+          href="http://www.enigmacamp.com/wordpress-prod"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Enigma Camp - IT Bootcamp</a
+        >
+        &copy; 2022, All rights reserved
+      </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Satisfy&display=swap");
+.center {
+  text-align: center; }
+
+.large {
+  font-size: 3rem; }
+
+.col-6 {
+  width: 50%;
+  height: 50vh; }
+
+/* Background */
+.bg-white {
+  background-color: #fff; }
+
+.bg-primary {
+  background-color: #FF4A4A; }
+
+.bg-secondary {
+  background-color: #6FEDD6; }
+
+.bg-tertiary {
+  background-color: #FF9551; }
+
+.bg-quaternary {
+  background-color: #B9FFF8; }
+
+/* Margin */
+/* Padding */
+/* Text */
+.text-white {
+  color: #fff; }
+
+.text-primary {
+  color: #FF4A4A; }
+
+.text-secondary {
+  color: #6FEDD6; }
+
+.text-tertiary {
+  color: #FF9551; }
+
+.text-quaternary {
+  color: #B9FFF8; }
+
+/* text-align */
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+/* Font */
+.h1-qs {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 28px; }
+
+.h1-500 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px; }
+
+.h1-24 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px; }
+
+.p-normal {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #616161; }
+
+.p-500 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 28px; }
+
+/* Border */
+/* Margin */
+.mt-20 {
+  margin-top: 20px; }
+
+/* Button */
+.btn-primary-large {
+  background-color: #FF4A4A;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s; }
+
+.btn-primary-large:hover {
+  background-color: #FF9551; }

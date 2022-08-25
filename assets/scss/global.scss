@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Satisfy&display=swap');
+
+$font-stack: sans-serif;
+$font-satisfy: 'Satisfy', cursive;
+$font-quicksand: 'Quicksand', sans-serif;
+$primary-color:   #FF4A4A;
+$secondary-color:  #6FEDD6;
+$tertiary-color: #FF9551;
+$quaternary-color: #B9FFF8;
+
+
+
+.center {
+    text-align: center;
+}
+
+.large {
+    font-size: 3rem;
+}
+.col-6 {
+    width: 50%;
+    height: 50vh;
+}
+
+
+/* Background */
+.bg-white {
+    background-color: #fff;
+}
+.bg-primary {
+    background-color: $primary-color;
+}
+.bg-secondary {
+    background-color: $secondary-color;
+}
+.bg-tertiary {
+    background-color: $tertiary-color;
+}   
+.bg-quaternary {
+    background-color: $quaternary-color;
+}
+/* Margin */
+
+
+
+
+
+
+/* Padding */
+
+
+
+/* Text */
+
+.text-white {
+    color: #fff;
+}
+.text-primary {
+    color: $primary-color;
+}
+.text-secondary {
+    color: $secondary-color;
+}
+
+.text-tertiary {
+    color: $tertiary-color;
+}
+.text-quaternary {
+    color: $quaternary-color;
+} 
+
+/* text-align */
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+
+
+
+/* Font */
+.h1-qs{
+    font-family: $font-quicksand;
+    font-weight: 600;
+    font-size: 28px;
+}
+.h1-500{
+    font-family: $font-quicksand;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.h1-24{
+    font-family: $font-quicksand;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    
+}
+.p-normal{
+    font-family: $font-quicksand;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #616161;
+}
+.p-500{
+    font-family: $font-quicksand;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+
+
+
+/* Border */
+
+
+
+
+/* Margin */
+
+.mt-20{
+    margin-top: 20px;
+}
+
+
+
+
+/* Button */
+
+.btn-primary-large{
+    background-color: $primary-color;
+    color: #fff;
+    font-family: $font-quicksand;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-primary-large:hover{
+    background-color: $tertiary-color;
+  
+}
+
+
+
+
+
+

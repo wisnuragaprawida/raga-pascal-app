@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: sans-serif; }
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg);
+  background-size: cover;
+  background-position: center; }
+
+header {
+  color: #fff;
+  padding: 20px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px #b1b1b17a;
+  z-index: 9999; }
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+#nav {
+  position: fixed; }
+
+.navbar-logo {
+  font-size: 2rem;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer; }
+
+.navbar ul li {
+  list-style: none;
+  float: left;
+  margin: 0 20px;
+  position: relative; }
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #FF4A4A;
+  text-transform: uppercase;
+  font-size: 1.2rem; }
+
+.navbar ul li::after {
+  content: '';
+  height: 2px;
+  width: 0;
+  background: #FF4A4A;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s; }
+
+.navbar ul li:hover::after {
+  width: 100%; }
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%; }
+
+.content h1 {
+  font-family: 'Satisfy';
+  font-size: 4rem; }
+
+.content p {
+  text-align: center;
+  margin: 20px auto;
+  line-height: 25px;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #fff; }
+
+.container {
+  width: 100%;
+  margin: 50px auto; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 40px; }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 360px;
+  height: auto;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: #fff; }
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0; }
+
+.card-body {
+  padding: 10px 16px 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+
+.card-body h1 {
+  text-align: center; }
+
+.section-value-1 {
+  display: flex;
+  padding: 48px 48px 0 48px;
+  justify-content: center;
+  align-items: center; }
+
+.value-1-image {
+  margin: 48px 48px 48px 0;
+  border-radius: 6px;
+  width: 405px;
+  height: 505px;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.12)); }
+
+.content-value-1 {
+  margin: 48px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.value-1-button {
+  width: 328px;
+  background: #D90429;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #FFFFFF; }
+
+.section-value-2 {
+  display: flex;
+  margin: 48px 48px 0 48px;
+  justify-content: center;
+  align-items: center; }
+
+.value-2-image {
+  margin: 48px 0 48px 48px;
+  width: 405px;
+  height: 505px;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.12));
+  border-radius: 6px; }
+
+.content-value-2 {
+  margin: 48px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.value-2-button {
+  width: 328px;
+  background: #D90429;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  text-decoration: none; }
+
+.contact {
+  width: 100%; }
+
+.contact__send__mail {
+  background: #FF4A4A;
+  padding: 90px 125px 0 89px; }
+
+.contact__send__mail h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Monument Extended';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF; }
+
+.contact__send__mail .form__input {
+  width: 100%;
+  margin: 67px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 57px; }
+
+.contact__input, .PhoneInputInput {
+  width: 100%;
+  height: 45px;
+  background: #FF4A4A;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #FFFFFF; }
+
+.contact__input::placeholder, .PhoneInputInput::placeholder {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: white; }
+
+.contact__input:focus, .PhoneInputInput:focus {
+  background: transparent;
+  outline: none; }
+
+.contact .form__grup textarea {
+  width: 100%;
+  height: 122px;
+  padding: 17px 16px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 9px;
+  resize: none;
+  background: transparent;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #FFFFFF; }
+
+.contact .form__grup textarea::placeholder {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: white; }
+
+.contact .form__grup textarea:focus {
+  outline: none; }
+
+.contact .form__grup label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: white; }
+
+footer {
+  text-align: center;
+  bottom: 0;
+  padding: 15px 0; }
+
+footer a {
+  text-decoration: none;
+  color: #fff; }

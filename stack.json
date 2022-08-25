@@ -1,0 +1,30 @@
+{
+    "anime": [
+        {
+        "name" : "Javascript",
+        "skill" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione eligendi, fugit amet natus ut tempore totam error dicta voluptatibus?",
+        "img" : "https://logique.s3.ap-southeast-1.amazonaws.com/2020/07/apa-itu-javascript-1.jpg"
+        },
+        {
+        "name" : "Html",
+        "skill" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione eligendi, fugit amet natus ut tempore totam error dicta voluptatibus?",
+        "img" : "https://www.techfor.id/wp-content/uploads/2019/12/html.png"
+        },
+        {
+        "name" : "CSS",
+        "skill" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione eligendi, fugit amet natus ut tempore totam error dicta voluptatibus?",
+        "img" : "https://badoystudio.com/wp-content/uploads/2022/04/apa-itu-css.png"
+        },
+        {
+        "name" : "Go",
+        "skill" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione eligendi, fugit amet natus ut tempore totam error dicta voluptatibus?",
+        "img" : "https://miro.medium.com/max/1400/0*SoqCeEz9EctJBXKw.png"
+        },
+        {
+        "name" : "Java",
+        "skill" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione eligendi, fugit amet natus ut tempore totam error dicta voluptatibus?",
+        "img" : "https://nextgen.co.id/wp-content/uploads/2021/08/java_tutorial.jpg"
+        }
+        
+    ]
+}
